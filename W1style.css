@@ -65,3 +65,56 @@
 {
     padding-top: 20px;
 }
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+}
+/*-------servies------*/
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://i.imgur.com/RWvltpF.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
