@@ -81,7 +81,7 @@
 /*-------servies------*/
 #services
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://i.imgur.com/RWvltpF.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://i.imgur.com/RWvltpF.jpg)!important;
     background-size: cover;
     background-position: center;
     color: #efefef!important;
