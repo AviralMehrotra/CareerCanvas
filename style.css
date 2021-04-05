@@ -322,3 +322,13 @@ ul li:last-child
     padding: 15px 50px;
     transition: 0.5s;
 }
+.buy-btn:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #3551b5;
+}
+a
+{
+    text-decoration: none!important;
+    color: #fff !important;
+}
