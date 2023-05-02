@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * 
 {
     margin: 0;
@@ -11,10 +12,12 @@
     top: 0;
     z-index: 10;
 }
-.navbar-brand img
+.navbar-brand 
 {
-    height: 40px;
+    height: 50px;
     padding-left: 30px;
+    font-family: Pacifico;
+
 }
 .navbar-nav li
 {
@@ -48,6 +51,7 @@
 #slider
 {
     width: 100%;
+/*    margin: 0 auto;*/
 }
 /*---------About---------*/
 #about
@@ -59,29 +63,43 @@
 #about .btn
 {
     margin-top: 20px;
-    margin-bottom: 30px;
 }
 .about-content
 {
     padding-top: 20px;
 }
-.skills-bar p
+.socials
 {
-    margin-bottom: 6px;
-    font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
-.progress-bar
-{
-    border-radius: 16px;
+
+.social-links li {
+  margin-bottom: 10px;
 }
-.progress
-{
-    border-radius: 16px !important;
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-links i {
+  font-size: 25px;
+  margin-right: 10px;
 }
 /*-------servies------*/
-#services
+#projects
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://i.imgur.com/RWvltpF.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://imgur.com/bWv75Hh.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef!important;
@@ -89,7 +107,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#services h1
+#projects h1
 {
     text-align: center;
     color: #efefef!important;
@@ -104,7 +122,7 @@
     width: 300px;
     margin: 20px auto 5px;
 }
-.services
+.projects
 {
     margin-top: 40px;
 }
@@ -117,14 +135,17 @@
     width: 80px;
     border: 1px solid #fff;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#services p
+#projects p
 {
     font-size: 14px;
     margin-top: 20px;
     color: #ccc;
 }
-.services .col-md-4:hover{
+.projects .col-md-4:hover{
     background: #05359c;
     cursor: pointer;    
     transition: 0.7s;
@@ -219,7 +240,7 @@ h1::after
 /*--------promo----------*/
 #promo
 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://i.imgur.com/CS7yUQP.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://imgur.com/3xuBdAO.jpg);
     background-size: cover;
     background-position-x: center;
     color: #fff;
@@ -321,6 +342,8 @@ ul li:last-child
     font-size: 15px;
     padding: 15px 50px;
     transition: 0.5s;
+    color: #fff;
+    text-decoration: none !important;
 }
 .buy-btn:hover
 {
@@ -329,18 +352,32 @@ ul li:last-child
 }
 a
 {
-    text-decoration: none!important;
-    color: #fff !important;
+    text-decoration: none !important;
+    color: #fff;
 }
-/*-------------Testimonials--------*/
-#testimonials
+/*-------------Certifications--------*/
+#certifications
 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#testimonials .row 
+#certifications .row 
 {
     margin-top: 30px;
+}
+.course-skills
+{
+    list-style-type: none;
+    text-align: justify;
+    position: relative;
+    padding: 10px;
+}
+.course
+{   
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    margin: 0 auto; /* center within parent element */
 }
 .col-md-4
 {
@@ -370,7 +407,7 @@ a
     margin-top: 15px;
     color: #007bff;
 }
-#testimonials span
+#certifications span
 {
     font-size: 12px;
     color: #333;
