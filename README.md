@@ -1,5 +1,4 @@
 
-
 # CareerCanvas
 
 It is a personal website that serves as a digital resume for me. The website features a clean and modern design that is easy to navigate and provides a comprehensive overview of my skills and experience
